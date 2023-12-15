@@ -80,3 +80,7 @@ Full Adder:
 
 
 ## Result:
+
+
+
+
