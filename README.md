@@ -1,3 +1,6 @@
+## Name: Dineshdharan.K
+## Reg: 23014095
+
 # Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit
 
 # Implementation-of-Half-Adder-and-Full-Adder-circuit
@@ -34,21 +37,54 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = A
 Connect the supply (+5V) to the circuit
 Switch ON the main switch
 If the output is 1, then the led glows.
-### 
-Program:
-/*
-Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
-Logic symbol & Truthtable
-RTL realization
 
-### Output:
-### RTL
-### TIMING DIAGRAM
+### Program:
+
+## HALF ADDER:
+
+module halfadder(a,b,sum,carry);
+input a,b;
+output sum,carry;
+xor(sum,a,b);
+and(carry,a,b)
+endmodule
+
+## FULL ADDER:
+
+module halfadder(a,b,c,sum,carry);
+input a,b,c;
+output sum,carry;
+xor(sum,a,b,c);
+assign carry=a&b | b&c | a&c
+endmodule
+ 
+## Truth Table:
+Half Adder:
+
+![Screenshot 2023-12-15 180904](https://github.com/dineshdharank/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145980096/ba53bca7-795b-4b01-bab0-b9b3de8653d2)
+
+Full Adder:
+
+![Screenshot 2023-12-15 180953](https://github.com/dineshdharank/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145980096/7b8d88cf-a45c-44fb-8cd4-e717a825b5b7)
+
+## RTL:
+Half Adder:
+
+![Screenshot 2023-12-15 181120](https://github.com/dineshdharank/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145980096/08dd95d7-41ea-4984-abcb-75a6ae57fbc3)
+
+Full Adder:
+
+![Screenshot 2023-12-15 181202](https://github.com/dineshdharank/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145980096/e4aaf544-8634-40db-8ee9-ea577af3ee5a)
 
 
-### TRUTH TABLE 
+## Timing Diagram:
+Half Adder:
+
+![Screenshot 2023-12-15 181531](https://github.com/dineshdharank/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145980096/d03c68f1-27c8-49ca-80f4-b57102cd96b1)
+
+Full Adder:
+
+![Screenshot 2023-12-15 181618](https://github.com/dineshdharank/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145980096/a80c9b56-ec97-4996-bd8e-8ff3d0239b3a)
+
 
 ### Result:
