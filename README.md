@@ -78,7 +78,7 @@ Full Adder:
 
 ![Screenshot 2023-12-15 181618](https://github.com/dineshdharank/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145980096/a80c9b56-ec97-4996-bd8e-8ff3d0239b3a)
 
-
+## output
 ## Result:
 
 
