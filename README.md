@@ -1,7 +1,7 @@
 ## Name: Dineshdharan.K
 ## Reg: 23014095
 
-# Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit
+# Exp-03-Implementation-of-Half-Adder-and-Full-Adder-circuit
 
 # Implementation-of-Half-Adder-and-Full-Adder-circuit
 ### AIM:
@@ -42,21 +42,13 @@ If the output is 1, then the led glows.
 
 ## HALF ADDER:
 
-~~~module halfadder(a,b,sum,carry);
-input a,b;
-output sum,carry;
-xor(sum,a,b);
-and(carry,a,b)
-endmodule
+![Screenshot 2023-12-15 210341](https://github.com/dineshdharank/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145980096/81fe1337-7a2d-474b-9da5-11948847ac8b)
+
 
 ## FULL ADDER:
 
-module halfadder(a,b,c,sum,carry);
-input a,b,c;
-output sum,carry;
-xor(sum,a,b,c);
-assign carry=a&b | b&c | a&c
-endmodule ~~~
+![Screenshot 2023-12-15 210732](https://github.com/dineshdharank/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145980096/e669dc36-216a-441d-854e-0b6566f9b631)
+
 
 ## Truth Table:
 Half Adder:
